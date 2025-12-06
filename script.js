@@ -1,5 +1,5 @@
 let timer = null;
-let audio = new Audio("1.mp3");
+let audio = new Audio("alert.mp3");
 audio.loop = true;
 
 document.getElementById("startBtn").addEventListener("click", () => {
